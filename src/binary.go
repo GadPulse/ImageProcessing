@@ -18,8 +18,8 @@ func main() {
 
     // binary threshold
     threshold := 120
-    for y := bounds.Min.Y; y < bounds.Max.Y-1; y++ {
-        for x := bounds.Min.X; x < bounds.Max.X-1; x++ {
+    for y := bounds.Min.Y; y < bounds.Max.Y; y++ {
+        for x := bounds.Min.X; x < bounds.Max.X; x++ {
 
             // get a pixel
             curPixel := img.At(x, y)
